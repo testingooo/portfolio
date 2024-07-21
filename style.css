@@ -1,0 +1,186 @@
+body{
+    /* background: url('purple.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: #081b29;
+    color: white;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+nav a{
+   color: white;
+   font-size: large;
+   width: 100px;
+   text-decoration: none;
+   margin-top: 20px;
+}
+nav a:hover{
+    transition: 0.2s;
+    color: yellow;
+
+}
+.Home{
+    margin: 200px 0 0 70px;
+    line-height: 35px;
+    color: white; 
+}
+.Home h1 span{
+    color: yellow;
+}
+/* About css */
+.about{
+    color: white;
+    text-align: center;
+    margin-top: 100px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about p span{
+ color: yellow;
+}
+.about .about-1  {
+    width: 400px;
+}
+.about .about-2{
+    width:900px;
+}
+
+.about .about-1 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+.about  .about-2 h1{
+    margin-bottom: 20px;
+
+}
+/* contact css */
+.contact{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+
+}
+.contact .contact-1{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 30px;
+}
+input{
+    height: 30px;
+    width: 400px;
+}
+textarea{
+    height: 60px;
+    width: 400px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+button:hover{
+    background-color:yellowgreen ;
+}
+.contact p{
+    margin-bottom: 20px;
+}
+.contact img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+
+}
+.contact h1{
+    margin-bottom: 10px;
+}
+.contact .logo{
+     padding: 0px 0px 10px 10px;
+}
+/* skills css */
+.skill p{
+    color: white;
+}
+.skill h1{
+    text-align: center;
+    color: yellow;
+    margin-top: 20px;
+}
+.skill h2{
+    color: yellow;
+    text-align: start;
+
+}
+.skill h3{
+    text-align: center;
+
+}
+.skill ol li{
+    margin: 20px
+}
+.skill .last{
+    color: white;
+    text-align: center;
+}
+@media (max-width:768px) {
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    nav a{
+        margin-left: 20px;
+    }
+    .Home{
+        margin-left: 30px;
+    }
+    .contact{
+        margin-top: 30px;
+    }
+    input{
+        width: 330px;
+        height: 30px;
+    }
+    textarea{
+        width:330px ;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .about .about-2{
+        width: 360px;
+    }
+    .about .about-2 p{
+        line-height: 25px;
+    }
+    
+
+    
+}
+
+
